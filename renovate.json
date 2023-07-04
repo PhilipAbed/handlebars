@@ -1,0 +1,10 @@
+{
+ "extends": ["config:base", "group:all"],
+    "packageRules": [
+      {
+        "matchPackageNames": ["react-scripts", "typescript", "jest", "ts-jest"],
+        "groupName": "Core Frontend libraries",
+        "description": "Put extra care when updating these packages. They are the core of the frontend."
+      }
+    ]
+}
